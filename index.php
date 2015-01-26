@@ -1,112 +1,66 @@
-<?
+<?php
 
-session_start();
+/************************************************************************************
+ ************************************************************************************
+ **                                                                                **
+ **  If you can read this text in your browser then you don't have PHP installed.  **
+ **  Please install PHP 5.3.2 or higher, preferably PHP 5.3.4+.                    **
+ **                                                                                **
+ ************************************************************************************
+ ************************************************************************************/
 
+/**
+ * This script bolts on top of SilverStripe to allow access without the use of .htaccess
+ * rewriting rules.
+ */
 
-$page = new StdClass;
+// This is the URL of the script that everything must be viewed with.
+define('BASE_SCRIPT_URL','index.php/');
 
+$ruLen = strlen($_SERVER['REQUEST_URI']);
+$snLen = strlen($_SERVER['SCRIPT_NAME']);
 
-require_once("database.php");
+$isIIS = (strpos($_SERVER['SERVER_SOFTWARE'], 'Microsoft-IIS') !== false);
 
-include("functions/security.php");
-
-if (isset($_POST['email']) && isset($_POST['password'])) {
-	$userid = tryLogin();
-	if ($userid != false) {
-		$user = getUser($userid);
-		$company = getCompany($user->company_id);
-		$_SESSION['userid']=$userid;
+// IIS will populate server variables using one of these two ways
+if($isIIS) {
+	if($_SERVER['REQUEST_URI'] == $_SERVER['SCRIPT_NAME']) {
+		$url = "";
+	} else if($ruLen > $snLen && substr($_SERVER['REQUEST_URI'],0,$snLen+1) == ($_SERVER['SCRIPT_NAME'] . '/')) {
+		$url = substr($_SERVER['REQUEST_URI'],$snLen+1);
+		$url = strtok($url, '?');
 	} else {
-		
-		header("Location: /login/?invalid=1");
-		//echo "Login failed";
-		die();
-		
+		$url = $_SERVER['REQUEST_URI'];
+		if($url[0] == '/') $url = substr($url,1);
+		$url = strtok($url, '?');
 	}
-} elseif (isset($_SESSION['userid'])) {
-	$user = getUser($_SESSION['userid']);
-	$company = getCompany($user->company_id);
+
+// Apache will populate the server variables this way
 } else {
-	die('Please login');
-	
+	if($ruLen > $snLen && substr($_SERVER['REQUEST_URI'],0,$snLen+1) == ($_SERVER['SCRIPT_NAME'] . '/')) {
+		$url = substr($_SERVER['REQUEST_URI'],$snLen+1);
+		$url = strtok($url, '?');
+	} else {
+		$url = "";
+	}
 }
 
+$_GET['url'] = $_REQUEST['url'] = $url;
 
+$fileName = dirname($_SERVER['SCRIPT_FILENAME']) . '/' . $url;
 
-$GLOBALS['user']=$user;
-
-
-
-
-switch ($_GET['page']) {
-	
-	case "user":
-		//user
-		$page->template="users.php";
-		$page->title = "Users";	
-		$page->functions = "users.php";
-		break;
-	case "company":
-		//company
-		$page->template="company.php";
-		$page->title = "Company";
-		$page->functions = "company.php";
-		break;
-	case "profiles":
-		//profiles
-		$page->template="profiles.php";
-		$page->title = "Profiles";
-		$page->functions = "profilesearch.php";
-		break;
-	case "rfpmanager":
-		//rfp
-		$page->template="rfpmanager.php";
-		$page->functions="rfpmanager.php";
-		$page->title = "RFP Manager";
-		break;
-	case "rfp-filter":
-		//rfp
-		$page->template="rfp-filter.php";
-		$page->functions="rfp-filter.php";
-		$page->title = "RFPs";
-		break;
-	case "rfp-view":
-		//view rfp
-		$page->template="rfp-view.php";
-		$page->functions="rfp-view.php";
-		$page->Title = "RFP";
-		break;
-	case "messages":
-		$page->template="inbox.php";
-		$page->functions="inbox.php";
-		$page->title = "Messages";
-		break;		
-	case "profile":
-		//one specific user profile
-		$page->template="profile.php";
-		$page->functions="profile.php";
-		$page->title = "Gateway User Profile";
-		break;
-	case "profile-company":
-		//one specific user profile
-		$page->template="profile-company.php";
-		$page->functions="profile-company.php";
-		$page->title = "Gateway Company Profile";
-		break;
-	default:
-		//dashboard
-		$page->template="dashboard.php";
-		$page->title = "Dashboard";
-		$page->functions= "dashboard.php";
-		break;
-	
-	
+/**
+ * This code is a very simple wrapper for sending files
+ * Very quickly pass through references to files
+ */
+if($url && file_exists($fileName)) {
+	$fileURL = (dirname($_SERVER['SCRIPT_NAME'])=='/'?'':dirname($_SERVER['SCRIPT_NAME'])) . '/' . $url;
+	if(isset($_SERVER['QUERY_STRING'])) {
+		$fileURL .= '?' . $_SERVER['QUERY_STRING'];
+	}
+	header($_SERVER['SERVER_PROTOCOL'] . ' 301 Moved Permanently');
+	header("Location: $fileURL");
+	die();
 }
 
-if (isset($page->functions))  include("functions/".$page->functions); 
-
-include("views/header.php");
-include("views/".$page->template);
-include("views/footer.php");
-
-?>
+require_once('framework/main.php');

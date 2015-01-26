@@ -1,0 +1,487 @@
+[13-Nov-2014 00:06:17 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='fdc1fa3e738441891f6a2uA3JEFhicu5Nqi3.zJoe.yjYeeHCFswe')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 00:12:45 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='29dfb9a18c7fd798f2d4aO9p2Ts7Eqn.ExvMuqB72s.UP2NJuuxpe')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 00:24:59 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='a8c61db0f19d1c5447815OfNbiYBMsV7x4/1dCtXe.1251dT6gLdO')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 00:26:55 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='52dd4644f86657217a038ebnmbjU.QveV.W9UqmF7rXd5x0jzgDmy')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 00:29:00 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='338b19c21f7f0a9ba024du7sJfvF1tkXOrWRXI.NrFHS5bMY0yDs6')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 00:45:03 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='5cec97a38794fb44a35a2uGVhNJK/Xn4EBbJFTxJnBiywUqBcp.qG')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 00:58:44 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='3f95b11d9a96941cb6523uz0m1KkAwrFWNexlX7v.25.HWC93DR2K')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 07:35:22 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='393c723e644898de4b3a1e70qVxQBRL6jgqysTnXwzfp7XDHncpRm')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 07:38:50 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='e8555bba95135d32fa0dfuhosM8VsxzM7Z1rsEDuTsygTv/Cjo2MS')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 07:39:59 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='4c8e7dc1d776b8150b1cduMV5GtQSM0xzseyJwJCXa9u2tw9RmB/S')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 07:43:46 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='d186a28c462c1e147d8e8ui/RyisS9wOZne/3yJRcLGtwjtgJqI9m')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 07:44:32 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='ad594463cf6e7bb89a646elvaVQExWiZek4uiKvPB6YCHhZygTl8S')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 07:46:29 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='1b0d62414c0138bb9cfcaOx00cUSegLDRtnCv7tPoxCD1RNTy/RUG')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 08:01:20 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='72aa3bc2af27bdfd5efe0u3/tJQ.a5sFy4UbCUuFxBN.NadPClQCC')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 08:04:10 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='dbdb14b429600d918120buCx4EySo.I/02kkWH7yQbsvEyTigb6CK')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 08:06:46 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='72aa3bc2af27bdfd5efe0u3/tJQ.a5sFy4UbCUuFxBN.NadPClQCC')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 08:10:20 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='72aa3bc2af27bdfd5efe0u3/tJQ.a5sFy4UbCUuFxBN.NadPClQCC')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 08:14:35 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='72aa3bc2af27bdfd5efe0u3/tJQ.a5sFy4UbCUuFxBN.NadPClQCC')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 08:17:51 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='e699c61c0a4efbed6da01u84f8U0lzq8eZImy22S6gRcrh9kSJFJu')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 08:43:32 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='e699c61c0a4efbed6da01u84f8U0lzq8eZImy22S6gRcrh9kSJFJu')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 08:48:18 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='e699c61c0a4efbed6da01u84f8U0lzq8eZImy22S6gRcrh9kSJFJu')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 08:49:38 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='e699c61c0a4efbed6da01u84f8U0lzq8eZImy22S6gRcrh9kSJFJu')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 08:55:36 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("ApiToken"='e699c61c0a4efbed6da01u84f8U0lzq8eZImy22S6gRcrh9kSJFJu')
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'ApiToken' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[13-Nov-2014 09:21:53 America/Chicago] PHP Fatal error:  Object::add_extension() - Can't find extension class for "MyMemberExtension" in /home/tastemk/public_html/framework/core/Object.php on line 535
+[13-Nov-2014 09:22:23 America/Chicago] PHP Fatal error:  Object::add_extension() - Can't find extension class for "MemberExtension" in /home/tastemk/public_html/framework/core/Object.php on line 535
+[24-Nov-2014 09:58:47 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "City_joint"."ClassName", "City_joint"."Created", "City_joint"."LastEdited", "City_joint"."ID", CASE WHEN "City_joint"."ClassName" IS NOT NULL THEN "City_joint"."ClassName" ELSE 'City_joint' END AS "RecordClassName"
+FROM "City_joint"
+LIMIT 100 
+
+Table 'tastemk_db.City_joint' doesn't exist in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[24-Nov-2014 10:01:17 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "City_joint"."ClassName", "City_joint"."Created", "City_joint"."LastEdited", "City_joint"."ID", CASE WHEN "City_joint"."ClassName" IS NOT NULL THEN "City_joint"."ClassName" ELSE 'City_joint' END AS "RecordClassName"
+FROM "City_joint"
+LIMIT 100 
+
+Table 'tastemk_db.City_joint' doesn't exist in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[04-Dec-2014 09:43:46 America/Chicago] PHP Parse error:  syntax error, unexpected '$menuIconStyling' (T_VARIABLE) in /home/tastemk/public_html/framework/admin/code/LeftAndMain.php on line 620
+[04-Dec-2014 09:49:48 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/tastemk/public_html/framework/admin/code/LeftAndMain.php on line 637
+[05-Dec-2014 10:23:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'livemode' (T_STRING) in /home/tastemk/public_html/mysite/code/models/Card_Detail.php on line 12
+[05-Dec-2014 20:56:50 America/Chicago] PHP Fatal error:  Card_Detail has a broken onBeforeWrite() function. Make sure that you call parent::onBeforeWrite(). in /home/tastemk/public_html/framework/model/DataObject.php on line 1149
+[05-Dec-2014 21:07:27 America/Chicago] PHP Fatal error:  Card_Detail has a broken onBeforeWrite() function. Make sure that you call parent::onBeforeWrite(). in /home/tastemk/public_html/framework/model/DataObject.php on line 1149
+[05-Dec-2014 22:34:08 America/Chicago] PHP Fatal error:  Card_Detail has a broken onBeforeWrite() function. Make sure that you call parent::onBeforeWrite(). in /home/tastemk/public_html/framework/model/DataObject.php on line 1149
+[06-Dec-2014 10:39:39 America/Chicago] PHP Fatal error:  Couldn't run query: 
+ALTER TABLE "Card" ADD "Name" varchar(150) character set utf8 collate utf8_general_ci 
+
+Duplicate column name 'Name' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[06-Dec-2014 10:53:23 America/Chicago] PHP Fatal error:  Couldn't run query: 
+ALTER TABLE "Card" ADD "Name" varchar(150) character set utf8 collate utf8_general_ci,
+ADD "Stripe_customer_id" varchar(150) character set utf8 collate utf8_general_ci,
+ADD "Token" varchar(150) character set utf8 collate utf8_general_ci,
+ADD "Token_created" varchar(100) character set utf8 collate utf8_general_ci,
+ADD "Type" varchar(100) character set utf8 collate utf8_general_ci,
+ADD "Type_id" varchar(150) character set utf8 collate utf8_general_ci,
+ADD "Last4" int(11) not null default 0,
+ADD "Brand" varchar(50) character set utf8 collate utf8_general_ci,
+ADD "Funding" varchar(50) character set utf8 collate utf8_general_ci,
+ADD "Exp_month" int(11) not null default 0,
+ADD "Exp_year" int(11) not null default 0,
+ADD "Country" varchar(50) character set utf8 collate utf8_general_ci,
+ADD "Address_line1" varchar(150) character set utf8 collate utf8_general_ci,
+ADD "Address_line2" varchar(150) character set utf8 collate utf8_general_ci,
+ADD "Address_city" varchar(150) character set utf8 collate u in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[06-Dec-2014 11:26:47 America/Chicago] PHP Fatal error:  Couldn't run query: 
+ALTER TABLE "Card" ADD "Name" varchar(150) character set utf8 collate utf8_general_ci,
+ADD "Stripe_customer_id" varchar(150) character set utf8 collate utf8_general_ci,
+ADD "Token" varchar(150) character set utf8 collate utf8_general_ci,
+ADD "Token_created" varchar(100) character set utf8 collate utf8_general_ci,
+ADD "Type" varchar(100) character set utf8 collate utf8_general_ci,
+ADD "Type_id" varchar(150) character set utf8 collate utf8_general_ci,
+ADD "Last4" int(11) not null default 0,
+ADD "Brand" varchar(50) character set utf8 collate utf8_general_ci,
+ADD "Funding" varchar(50) character set utf8 collate utf8_general_ci,
+ADD "Exp_month" int(11) not null default 0,
+ADD "Exp_year" int(11) not null default 0,
+ADD "Country" varchar(50) character set utf8 collate utf8_general_ci,
+ADD "Address_line1" varchar(150) character set utf8 collate utf8_general_ci,
+ADD "Address_line2" varchar(150) character set utf8 collate utf8_general_ci,
+ADD "Address_city" varchar(150) character set utf8 collate u in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[28-Dec-2014 08:28:21 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "City_Joint"."ClassName", "City_Joint"."Created", "City_Joint"."LastEdited", "City_Joint"."Name", "City_Joint"."Category", "City_Joint"."City", "City_Joint"."Neighbourhood", "City_Joint"."Address", "City_Joint"."Phone", "City_Joint"."Rating", "City_Joint"."Website", "City_Joint"."Price_Range", "City_Joint"."Voucher", "City_Joint"."Webstory", "City_Joint"."Description", "City_Joint"."ID", CASE WHEN "City_Joint"."ClassName" IS NOT NULL THEN "City_Joint"."ClassName" ELSE 'City_Joint' END AS "RecordClassName"
+FROM "City_Joint"
+WHERE ("Meth" = '')
+LIMIT 100 
+
+Unknown column 'Meth' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[28-Dec-2014 08:29:19 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "City_Joint"."ClassName", "City_Joint"."Created", "City_Joint"."LastEdited", "City_Joint"."Name", "City_Joint"."Category", "City_Joint"."City", "City_Joint"."Neighbourhood", "City_Joint"."Address", "City_Joint"."Phone", "City_Joint"."Rating", "City_Joint"."Website", "City_Joint"."Price_Range", "City_Joint"."Voucher", "City_Joint"."Webstory", "City_Joint"."Description", "City_Joint"."ID", CASE WHEN "City_Joint"."ClassName" IS NOT NULL THEN "City_Joint"."ClassName" ELSE 'City_Joint' END AS "RecordClassName"
+FROM "City_Joint"
+WHERE ("Meth" = '')
+LIMIT 100 
+
+Unknown column 'Meth' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[28-Dec-2014 09:38:43 America/Chicago] PHP Fatal error:  Call to undefined function limit() in /home/tastemk/public_html/restfulapi/code/queryHandlers/RESTfulAPI_DefaultQueryHandler.php on line 270
+[28-Dec-2014 09:40:10 America/Chicago] PHP Fatal error:  Call to undefined function limit() in /home/tastemk/public_html/restfulapi/code/queryHandlers/RESTfulAPI_DefaultQueryHandler.php on line 270
+[28-Dec-2014 10:10:49 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/tastemk/public_html/restfulapi/code/queryHandlers/RESTfulAPI_DefaultQueryHandler.php on line 271
+[29-Dec-2014 12:10:32 America/Chicago] PHP Fatal error:  Call to a member function allParams() on a non-object in /home/tastemk/public_html/mysite/code/models/Card.php on line 77
+[29-Dec-2014 12:20:59 America/Chicago] PHP Fatal error:  Call to a member function getVars() on a non-object in /home/tastemk/public_html/mysite/code/models/Card.php on line 77
+[29-Dec-2014 12:24:14 America/Chicago] PHP Fatal error:  Call to a member function getURL() on a non-object in /home/tastemk/public_html/mysite/code/models/Card.php on line 77
+[30-Dec-2014 22:08:40 America/Chicago] PHP Fatal error:  Card has a broken onBeforeWrite() function. Make sure that you call parent::onBeforeWrite(). in /home/tastemk/public_html/framework/model/DataObject.php on line 1149
+[30-Dec-2014 22:12:51 America/Chicago] PHP Fatal error:  Card has a broken onBeforeWrite() function. Make sure that you call parent::onBeforeWrite(). in /home/tastemk/public_html/framework/model/DataObject.php on line 1149
+[02-Jan-2015 11:28:49 America/Chicago] Stripe Notice: Undefined property of Stripe_Charge instance: ID
+[02-Jan-2015 11:30:09 America/Chicago] Stripe Notice: Undefined property of Stripe_Charge instance: ID
+[03-Jan-2015 00:37:08 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Order"."ClassName", "Order"."Created", "Order"."LastEdited", "Order"."Amount", "Order"."Claimed", "Order"."Visitors", "Order"."Stripe_trans_id", "Order"."MemberID", "Order"."CardID", "Order"."JointID", "Order"."ID", CASE WHEN "Order"."ClassName" IS NOT NULL THEN "Order"."ClassName" ELSE 'Order' END AS "RecordClassName"
+FROM "Order"
+WHERE ("Listings_plus_cards" = '') AND ("City" = 'LAGOS')
+LIMIT 100 
+
+Unknown column 'Listings_plus_cards' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[03-Jan-2015 00:37:46 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Order"."ClassName", "Order"."Created", "Order"."LastEdited", "Order"."Amount", "Order"."Claimed", "Order"."Visitors", "Order"."Stripe_trans_id", "Order"."MemberID", "Order"."CardID", "Order"."JointID", "Order"."ID", CASE WHEN "Order"."ClassName" IS NOT NULL THEN "Order"."ClassName" ELSE 'Order' END AS "RecordClassName"
+FROM "Order"
+WHERE ("Listings_plus_cards" = '') AND ("City" = 'LAGOS')
+LIMIT 100 
+
+Unknown column 'Listings_plus_cards' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[03-Jan-2015 00:38:24 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Order"."ClassName", "Order"."Created", "Order"."LastEdited", "Order"."Amount", "Order"."Claimed", "Order"."Visitors", "Order"."Stripe_trans_id", "Order"."MemberID", "Order"."CardID", "Order"."JointID", "Order"."ID", CASE WHEN "Order"."ClassName" IS NOT NULL THEN "Order"."ClassName" ELSE 'Order' END AS "RecordClassName"
+FROM "Order"
+WHERE ("Listings_plus_cards" = '') AND ("City" = 'LAGOS')
+LIMIT 100 
+
+Unknown column 'Listings_plus_cards' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[03-Jan-2015 00:39:34 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Order"."ClassName", "Order"."Created", "Order"."LastEdited", "Order"."Amount", "Order"."Claimed", "Order"."Visitors", "Order"."Stripe_trans_id", "Order"."MemberID", "Order"."CardID", "Order"."JointID", "Order"."ID", CASE WHEN "Order"."ClassName" IS NOT NULL THEN "Order"."ClassName" ELSE 'Order' END AS "RecordClassName"
+FROM "Order"
+WHERE ("Listings_plus_cards" = '') AND ("City" = 'LAGOS')
+LIMIT 100 
+
+Unknown column 'Listings_plus_cards' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[03-Jan-2015 00:41:49 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Order"."ClassName", "Order"."Created", "Order"."LastEdited", "Order"."Amount", "Order"."Claimed", "Order"."Visitors", "Order"."Stripe_trans_id", "Order"."MemberID", "Order"."CardID", "Order"."JointID", "Order"."ID", CASE WHEN "Order"."ClassName" IS NOT NULL THEN "Order"."ClassName" ELSE 'Order' END AS "RecordClassName"
+FROM "Order"
+WHERE ("Listings_plus_cards" = '') AND ("City" = 'LAGOS')
+LIMIT 100 
+
+Unknown column 'Listings_plus_cards' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[03-Jan-2015 00:43:37 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Order"."ClassName", "Order"."Created", "Order"."LastEdited", "Order"."Amount", "Order"."Claimed", "Order"."Visitors", "Order"."Stripe_trans_id", "Order"."MemberID", "Order"."CardID", "Order"."JointID", "Order"."ID", CASE WHEN "Order"."ClassName" IS NOT NULL THEN "Order"."ClassName" ELSE 'Order' END AS "RecordClassName"
+FROM "Order"
+WHERE ("Listings_plus_cards" = '') AND ("City" = 'LAGOS')
+LIMIT 100 
+
+Unknown column 'Listings_plus_cards' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[03-Jan-2015 00:44:41 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "Order"."ClassName", "Order"."Created", "Order"."LastEdited", "Order"."Amount", "Order"."Claimed", "Order"."Visitors", "Order"."Stripe_trans_id", "Order"."MemberID", "Order"."CardID", "Order"."JointID", "Order"."ID", CASE WHEN "Order"."ClassName" IS NOT NULL THEN "Order"."ClassName" ELSE 'Order' END AS "RecordClassName"
+FROM "Order"
+WHERE ("Listings_plus_cards" = '') AND ("City" = 'LAGOS')
+LIMIT 100 
+
+Unknown column 'Listings_plus_cards' in 'where clause' in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[04-Jan-2015 06:33:29 America/Chicago] PHP Fatal error:  DataList::create Can't find data classes (classes linked to tables) for . Please ensure you run dev/build after creating a new DataObject. in /home/tastemk/public_html/framework/model/DataQuery.php on line 116
+[04-Jan-2015 06:34:19 America/Chicago] PHP Fatal error:  DataList::create Can't find data classes (classes linked to tables) for . Please ensure you run dev/build after creating a new DataObject. in /home/tastemk/public_html/framework/model/DataQuery.php on line 116
+[04-Jan-2015 06:40:06 America/Chicago] PHP Fatal error:  DataList::create Can't find data classes (classes linked to tables) for . Please ensure you run dev/build after creating a new DataObject. in /home/tastemk/public_html/framework/model/DataQuery.php on line 116
+[04-Jan-2015 10:28:32 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "City_joint"."ClassName", "City_joint"."Created", "City_joint"."LastEdited", "City_joint"."ID", CASE WHEN "City_joint"."ClassName" IS NOT NULL THEN "City_joint"."ClassName" ELSE 'City_joint' END AS "RecordClassName"
+FROM "City_joint"
+LIMIT 100 
+
+Table 'tastemk_db.City_joint' doesn't exist in /home/tastemk/public_html/framework/model/MySQLDatabase.php on line 598
+[05-Jan-2015 08:04:25 America/Chicago] PHP Fatal error:  Call to undefined method City_Joint::get_byID() in /home/tastemk/public_html/mysite/code/models/Order.php on line 84
+[14-Jan-2015 09:34:59 America/Chicago] PHP Fatal error:  Call to undefined method Member::CurentUser() in /home/gatewayd/public_html/mysite/code/HomePage.php on line 33
+[14-Jan-2015 09:41:58 America/Chicago] PHP Fatal error:  Call to a member function Engagements() on a non-object in /home/gatewayd/public_html/mysite/code/HomePage.php on line 40
+[15-Jan-2015 02:42:28 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT count(DISTINCT "Engagement"."ID") AS "0"
+FROM "Engagement"
+WHERE ("0" = 'From_user_id') AND ("1" = '1') 
+
+Unknown column '0' in 'where clause' in /home/gatewayd/public_html/framework/model/MySQLDatabase.php on line 598
+[15-Jan-2015 22:44:28 America/Chicago] PHP Fatal error:  DataObject::defineMethods(): Please ensure Member_Extension::__construct() calls parent::__construct() in /home/gatewayd/public_html/framework/model/DataObject.php on line 610
+[16-Jan-2015 01:12:15 America/Chicago] PHP Fatal error:  Class 'Order' not found in /home/gatewayd/public_html/mysite/code/controllers/Cards.php on line 6
+[16-Jan-2015 01:21:45 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/gatewayd/public_html/mysite/code/models/Message.php on line 34
+[16-Jan-2015 01:28:32 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 46080 bytes) in /home/gatewayd/public_html/silverstripe-cache/gatewayd/.cache.themes.simple.templates.Layout.Messages.ss on line 908
+[16-Jan-2015 01:29:57 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 196608 bytes) in /home/gatewayd/public_html/silverstripe-cache/gatewayd/.cache.themes.simple.templates.Layout.Messages.ss on line 848
+[16-Jan-2015 01:31:41 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 196608 bytes) in /home/gatewayd/public_html/silverstripe-cache/gatewayd/.cache.themes.simple.templates.Layout.Messages.ss on line 848
+[16-Jan-2015 02:01:35 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/gatewayd/public_html/mysite/code/models/Message.php on line 12
+[16-Jan-2015 02:29:39 America/Chicago] PHP Fatal error:  Call to a member function newEmails() on a non-object in /home/gatewayd/public_html/mysite/code/controllers/Cards.php on line 6
+[16-Jan-2015 02:41:57 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/gatewayd/public_html/mysite/code/models/Message.php on line 34
+[16-Jan-2015 02:42:29 America/Chicago] PHP Fatal error:  Call to undefined function newMessages() in /home/gatewayd/public_html/mysite/code/models/Message.php on line 34
+[16-Jan-2015 02:43:19 America/Chicago] PHP Fatal error:  Call to undefined function newMessages() in /home/gatewayd/public_html/mysite/code/models/Message.php on line 34
+[16-Jan-2015 02:47:53 America/Chicago] PHP Fatal error:  Undefined class constant 'id' in /home/gatewayd/public_html/mysite/code/models/Message.php on line 23
+[16-Jan-2015 02:48:34 America/Chicago] PHP Fatal error:  Undefined class constant 'id' in /home/gatewayd/public_html/mysite/code/models/Message.php on line 23
+[16-Jan-2015 02:52:03 America/Chicago] PHP Fatal error:  Access to undeclared static property: Message::$id in /home/gatewayd/public_html/mysite/code/models/Message.php on line 23
+[16-Jan-2015 04:46:46 America/Chicago] PHP Fatal error:  Call to undefined method Member::getbyID() in /home/gatewayd/public_html/mysite/code/models/Message.php on line 53
+[16-Jan-2015 13:57:42 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home/gatewayd/public_html/mysite/code/model_admin/City_Admin.php' (include_path='.:/home/gatewayd/public_html/framework:/home/gatewayd/public_html/framework/parsers:/home/gatewayd/public_html/framework/thirdparty:.:/opt/php54/lib/php') in /home/gatewayd/public_html/framework/core/manifest/ClassLoader.php on line 77
+[16-Jan-2015 13:58:12 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home/gatewayd/public_html/mysite/code/model_admin/City_Admin.php' (include_path='.:/home/gatewayd/public_html/framework:/home/gatewayd/public_html/framework/parsers:/home/gatewayd/public_html/framework/thirdparty:.:/opt/php54/lib/php') in /home/gatewayd/public_html/framework/core/manifest/ClassLoader.php on line 77
+[16-Jan-2015 14:04:38 America/Chicago] PHP Fatal error:  Undefined class constant 'help_link' in /home/gatewayd/public_html/framework/admin/code/LeftAndMain.php on line 221
+[16-Jan-2015 14:45:11 America/Chicago] PHP Fatal error:  Can't use method return value in write context in /home/gatewayd/public_html/mysite/code/Pages.php on line 59
+[16-Jan-2015 14:45:58 America/Chicago] PHP Fatal error:  Can't use method return value in write context in /home/gatewayd/public_html/mysite/code/Pages.php on line 59
+[16-Jan-2015 14:46:19 America/Chicago] PHP Fatal error:  Can't use method return value in write context in /home/gatewayd/public_html/mysite/code/Pages.php on line 59
+[16-Jan-2015 14:48:49 America/Chicago] PHP Fatal error:  Can't use method return value in write context in /home/gatewayd/public_html/mysite/code/Pages.php on line 59
+[17-Jan-2015 11:06:36 America/Chicago] PHP Fatal error:  Couldn't run query: 
+ALTER TABLE "Rfp" ADD "ClassName" enum('Rfp') character set utf8 collate utf8_general_ci default 'Rfp',
+ADD "LastEdited" datetime,
+ADD "Job_Type " varchar(50) character set utf8 collate utf8_general_ci,
+ADD index "CompanyID" ("CompanyID"),
+ADD index "MemberID" ("MemberID"),
+ADD index "ClassName" ("ClassName"),
+CHANGE "Created" "Created" datetime,
+CHANGE "Deleted" "Deleted" int(11) not null default 0,
+CHANGE "Title" "Title" varchar(50) character set utf8 collate utf8_general_ci,
+CHANGE "Bar_Admittance_State" "Bar_Admittance_State" varchar(200) character set utf8 collate utf8_general_ci,
+CHANGE "Number_Of_Attorneys" "Number_Of_Attorneys" varchar(50) character set utf8 collate utf8_general_ci,
+CHANGE "Job_Category" "Job_Category" varchar(100) character set utf8 collate utf8_general_ci,
+CHANGE "Description" "Description" mediumtext character set utf8 collate utf8_general_ci,
+CHANGE "Job_Timeframe" "Job_Timeframe" varchar(150) character set utf8 collate utf8_general_ci,
+CHANGE "Submission_Dead in /home/gatewayd/public_html/framework/model/MySQLDatabase.php on line 598
+[17-Jan-2015 23:45:25 America/Chicago] PHP Parse error:  syntax error, unexpected ''Bio	'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/gatewayd/public_html/framework/core/manifest/ConfigStaticManifest.php(371) : eval()'d code on line 1
+[17-Jan-2015 23:45:26 America/Chicago] PHP Parse error:  syntax error, unexpected ''Bio	'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/gatewayd/public_html/mysite/code/extensions/Member_Extension.php on line 17
+[17-Jan-2015 23:46:08 America/Chicago] PHP Parse error:  syntax error, unexpected ''Bio'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/gatewayd/public_html/framework/core/manifest/ConfigStaticManifest.php(371) : eval()'d code on line 1
+[17-Jan-2015 23:46:08 America/Chicago] PHP Parse error:  syntax error, unexpected ''Bio'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/gatewayd/public_html/mysite/code/extensions/Member_Extension.php on line 17
+[17-Jan-2015 23:47:08 America/Chicago] PHP Fatal error:  Couldn't run query: 
+ALTER TABLE "Member" ADD "MiddleName" varchar(25) character set utf8 collate utf8_general_ci,
+ADD "Prefix" varchar(10) character set utf8 collate utf8_general_ci,
+ADD "Suffix" varchar(10) character set utf8 collate utf8_general_ci,
+ADD "Title" varchar(25) character set utf8 collate utf8_general_ci,
+ADD "Gender" varchar(15) character set utf8 collate utf8_general_ci,
+ADD "Deleted" int(11) not null default 0,
+ADD "Phone" varchar(25) character set utf8 collate utf8_general_ci,
+ADD "Fax" varchar(10) character set utf8 collate utf8_general_ci,
+ADD "Area_Of_Practice" varchar(200) character set utf8 collate utf8_general_ci,
+ADD "Bar_Admittance_State" varchar(10) character set utf8 collate utf8_general_ci,
+ADD "Years_Of_Practic" varchar(10) character set utf8 collate utf8_general_ci,
+ADD "Law_School" varchar(100) character set utf8 collate utf8_general_ci,
+ADD "Bio" mediumtext character set utf8 collate utf8_general_ci,
+ADD "Client_Private_Sector" varchar(200) character set utf8 collate utf8_gene in /home/gatewayd/public_html/framework/model/MySQLDatabase.php on line 598
+[18-Jan-2015 01:36:41 America/Chicago] PHP Fatal error:  BarState::$has_one has a bad entry: 0 => 'Connection'.  Each map key should be a relationship name, and the map value should be the data class to join to. in /home/gatewayd/public_html/framework/model/DataObject.php on line 1625
+[18-Jan-2015 02:44:08 America/Chicago] PHP Fatal error:  Up called when we're already at the top of the scope in /home/gatewayd/public_html/framework/view/SSViewer.php on line 98
+[18-Jan-2015 03:54:42 America/Chicago] PHP Fatal error:  Call to undefined method Member::PracticeAreas() in /home/gatewayd/public_html/mysite/code/extensions/Member_Extension.php on line 50
+[18-Jan-2015 03:56:15 America/Chicago] PHP Fatal error:  Call to undefined method Member::PracticeAreas() in /home/gatewayd/public_html/mysite/code/extensions/Member_Extension.php on line 50
+[18-Jan-2015 03:58:05 America/Chicago] PHP Fatal error:  Call to undefined method Member::PracticeAreas() in /home/gatewayd/public_html/mysite/code/extensions/Member_Extension.php on line 50
+[18-Jan-2015 03:58:25 America/Chicago] PHP Fatal error:  Call to undefined method Member::PracticeAreas() in /home/gatewayd/public_html/mysite/code/extensions/Member_Extension.php on line 50
+[18-Jan-2015 03:58:35 America/Chicago] PHP Fatal error:  Call to undefined method Member::PracticeAreas() in /home/gatewayd/public_html/mysite/code/extensions/Member_Extension.php on line 50
+[18-Jan-2015 03:59:37 America/Chicago] PHP Fatal error:  Call to undefined method Member::PracticeArea() in /home/gatewayd/public_html/mysite/code/extensions/Member_Extension.php on line 50
+[18-Jan-2015 04:12:19 America/Chicago] PHP Fatal error:  Call to undefined method Member_Extension::owner() in /home/gatewayd/public_html/mysite/code/extensions/Member_Extension.php on line 50
+[18-Jan-2015 04:14:03 America/Chicago] PHP Fatal error:  Undefined class constant 'CurrentUserID' in /home/gatewayd/public_html/mysite/code/extensions/Member_Extension.php on line 50
+[18-Jan-2015 22:03:16 America/Chicago] PHP Fatal error:  Call to undefined method SS_HTTPRequest::Vars() in /home/gatewayd/public_html/mysite/code/Pages.php on line 57
+[20-Jan-2015 02:35:03 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 196608 bytes) in /home/gatewayd/public_html/silverstripe-cache/gatewayd/.cache.themes.simple.templates.Layout.Profiles.ss on line 667
+[20-Jan-2015 02:35:20 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 196608 bytes) in /home/gatewayd/public_html/silverstripe-cache/gatewayd/.cache.themes.simple.templates.Layout.Profiles.ss on line 667
+[20-Jan-2015 02:36:32 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 196608 bytes) in /home/gatewayd/public_html/silverstripe-cache/gatewayd/.cache.themes.simple.templates.Layout.Profiles.ss on line 667
+[20-Jan-2015 02:39:09 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/gatewayd/public_html/framework/thirdparty/php-peg/Parser.php on line 69
+[20-Jan-2015 02:39:56 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/gatewayd/public_html/framework/thirdparty/php-peg/Parser.php on line 116
+[20-Jan-2015 02:43:16 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/gatewayd/public_html/framework/thirdparty/php-peg/Parser.php on line 0
+[20-Jan-2015 02:44:35 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 49152 bytes) in /home/gatewayd/public_html/silverstripe-cache/gatewayd/.cache.themes.simple.templates.Layout.Profiles.ss on line 204
+[20-Jan-2015 02:55:55 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/gatewayd/public_html/framework/view/SSTemplateParser.php on line 1736
+[20-Jan-2015 03:03:30 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/gatewayd/public_html/framework/view/SSTemplateParser.php on line 275
+[20-Jan-2015 03:05:40 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/gatewayd/public_html/framework/view/SSTemplateParser.php on line 4264
+[20-Jan-2015 03:06:31 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/gatewayd/public_html/framework/thirdparty/php-peg/Parser.php on line 251
+[20-Jan-2015 03:07:56 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/gatewayd/public_html/framework/view/SSTemplateParser.php on line 559
+[20-Jan-2015 03:08:49 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/gatewayd/public_html/framework/view/SSTemplateParser.php on line 4106
+[20-Jan-2015 03:09:29 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/gatewayd/public_html/framework/view/SSTemplateParser.php on line 1737
+[20-Jan-2015 03:11:27 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/gatewayd/public_html/framework/view/SSTemplateParser.php on line 0
+[20-Jan-2015 03:13:29 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/gatewayd/public_html/framework/view/SSTemplateParser.php on line 3387
+[20-Jan-2015 04:28:38 America/Chicago] PHP Fatal error:  Couldn't run query: 
+ALTER TABLE "Company" ADD "ClassName" enum('Company') character set utf8 collate utf8_general_ci default 'Company',
+ADD "Website " varchar(200) character set utf8 collate utf8_general_ci,
+ADD index "ClassName" ("ClassName"),
+CHANGE "Created" "Created" datetime,
+CHANGE "Deleted" "Deleted" int(11) not null default 0,
+CHANGE "Company_Name" "Company_Name" varchar(100) character set utf8 collate utf8_general_ci,
+CHANGE "Company_Type" "Company_Type" varchar(50) character set utf8 collate utf8_general_ci,
+CHANGE "Attorneys" "Attorneys" varchar(50) character set utf8 collate utf8_general_ci,
+CHANGE "Phone" "Phone" varchar(50) character set utf8 collate utf8_general_ci,
+CHANGE "Fax" "Fax" varchar(50) character set utf8 collate utf8_general_ci,
+CHANGE "Years_Of_Practice" "Years_Of_Practice" varchar(50) character set utf8 collate utf8_general_ci,
+CHANGE "Diversity_Statement" "Diversity_Statement" mediumtext character set utf8 collate utf8_general_ci,
+CHANGE "Company_Overview" "Company_Overview" medi in /home/gatewayd/public_html/framework/model/MySQLDatabase.php on line 598
+[21-Jan-2015 01:32:47 America/Chicago] PHP Fatal error:  Class 'Practice_Area' not found in /home/gatewayd/public_html/mysite/code/models/Company.php on line 37
+[21-Jan-2015 01:33:16 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "PracticeArea"."ClassName", "PracticeArea"."Created", "PracticeArea"."LastEdited", "PracticeArea"."Type", "PracticeArea"."MemberID", "PracticeArea"."PracticeArea_ListID", "PracticeArea"."ID", CASE WHEN "PracticeArea"."ClassName" IS NOT NULL THEN "PracticeArea"."ClassName" ELSE 'PracticeArea' END AS "RecordClassName"
+FROM "PracticeArea"
+WHERE ("0" = 'Related_ID') AND ("1" = '1') AND ("PracticeArea"."Type" = 'company') 
+
+Unknown column 'PracticeArea.MemberID' in 'field list' in /home/gatewayd/public_html/framework/model/MySQLDatabase.php on line 598
+[21-Jan-2015 01:34:00 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "PracticeArea"."ClassName", "PracticeArea"."Created", "PracticeArea"."LastEdited", "PracticeArea"."Type", "PracticeArea"."Related_ID", "PracticeArea"."PracticeArea_ListID", "PracticeArea"."ID", CASE WHEN "PracticeArea"."ClassName" IS NOT NULL THEN "PracticeArea"."ClassName" ELSE 'PracticeArea' END AS "RecordClassName"
+FROM "PracticeArea"
+WHERE ("0" = 'Related_ID') AND ("1" = '1') AND ("PracticeArea"."Type" = 'company') 
+
+Unknown column '0' in 'where clause' in /home/gatewayd/public_html/framework/model/MySQLDatabase.php on line 598
+[21-Jan-2015 04:44:57 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "PracticeArea"."ClassName", "PracticeArea"."Created", "PracticeArea"."LastEdited", "PracticeArea"."Type", "PracticeArea"."Related_ID", "PracticeArea"."PracticeArea_ListID", "PracticeArea"."ID", CASE WHEN "PracticeArea"."ClassName" IS NOT NULL THEN "PracticeArea"."ClassName" ELSE 'PracticeArea' END AS "RecordClassName"
+FROM "PracticeArea"
+WHERE ("MemberID" = '1') AND ("PracticeArea"."Type" = 'user') 
+
+Unknown column 'MemberID' in 'where clause' in /home/gatewayd/public_html/framework/model/MySQLDatabase.php on line 598
+[21-Jan-2015 07:48:13 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/gatewayd/public_html/mysite/code/models/Company.php on line 54
+[22-Jan-2015 20:56:54 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "State"."ClassName", "State"."Created", "State"."LastEdited", "State"."Initial", "State"."Full", "State"."ID", CASE WHEN "State"."ClassName" IS NOT NULL THEN "State"."ClassName" ELSE 'State' END AS "RecordClassName", "Name"
+FROM "State"
+ORDER BY "Name" ASC 
+
+Unknown column 'Name' in 'field list' in /home/gatewayd/public_html/framework/model/MySQLDatabase.php on line 598
+[23-Jan-2015 01:00:48 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT count(DISTINCT "Member"."ID") AS "0"
+FROM "Member"
+WHERE ("Member"."ID" IN ()) 
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))' at line 1 in /home/gatewayd/public_html/framework/model/MySQLDatabase.php on line 598
+[23-Jan-2015 20:54:23 America/Chicago] PHP Fatal error:  Call to a member function filter() on a non-object in /home/gatewayd/public_html/mysite/code/Pages.php on line 56
+[23-Jan-2015 20:57:25 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT count(DISTINCT "Member"."ID") AS "0"
+FROM "Member"
+WHERE ("Name" LIKE '%sam%') 
+
+Unknown column 'Name' in 'where clause' in /home/gatewayd/public_html/framework/model/MySQLDatabase.php on line 598
+[23-Jan-2015 21:26:39 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT count(DISTINCT "Member"."ID") AS "0"
+FROM "Member"
+WHERE ("Member"."ID" IN ()) 
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))' at line 1 in /home/gatewayd/public_html/framework/model/MySQLDatabase.php on line 598
+[23-Jan-2015 21:28:56 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT count(DISTINCT "Member"."ID") AS "0"
+FROM "Member"
+WHERE ("Member"."ID" IN ()) 
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))' at line 1 in /home/gatewayd/public_html/framework/model/MySQLDatabase.php on line 598
+[23-Jan-2015 22:20:52 America/Chicago] PHP Fatal error:  Method name must be a string in /home/gatewayd/public_html/mysite/code/Pages.php on line 57
+[24-Jan-2015 19:51:30 America/Chicago] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT count(DISTINCT "Member"."ID") AS "0"
+FROM "Member"
+WHERE ("State" = 'AL') 
+
+Unknown column 'State' in 'where clause' in /home/gatewayd/public_html/framework/model/MySQLDatabase.php on line 598

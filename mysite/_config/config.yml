@@ -1,0 +1,69 @@
+---
+Name: mysite
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
+# YAML configuration for SilverStripe
+# See http://doc.silverstripe.org/framework/en/topics/configuration
+# Caution: Indentation through two spaces, not tabs
+SSViewer:
+  theme: 'simple'
+  
+# API access
+Order:
+  api_access: true 
+Card:
+  api_access: true
+City_Joint:
+  api_access: true
+City:
+  api_access: true
+Author:
+  api_access: true
+Category:
+  api_access: true
+Magazine:
+  api_access: true
+Tag:
+  api_access: 'GET,POST'
+Visual:
+  api_access: true
+Image:
+  api_access: true
+File:
+  api_access: true
+Page:
+  api_access: true
+# RestfulAPI config
+RESTfulAPI:
+  authentication_policy: true
+  access_control_policy: 'ACL_CHECK_CONFIG_AND_MODEL'
+  dependencies:
+    authenticator: '%$RESTfulAPI_TokenAuthenticator'
+    authority: '%$RESTfulAPI_DefaultPermissionManager'
+    queryHandler: '%$RESTfulAPI_DefaultQueryHandler'
+    serializer: '%$RESTfulAPI_EmberDataSerializer'
+  cors:
+    Enabled: true
+    Allow-Origin: '*'
+    Allow-Headers: '*'
+    Allow-Methods: 'OPTIONS, GET'
+    Max-Age: 86400
+# Components config
+RESTfulAPI_DefaultQueryHandler:
+  dependencies:
+    deSerializer: '%$RESTfulAPI_EmberDataDeSerializer'
+RESTfulAPI_EmberDataSerializer:
+  sideloaded_records:
+    Artwork:
+      - 'Visuals'
+      - 'Authors'
+Member:
+  extensions:
+    - RESTfulAPI_TokenAuthExtension
+ApiUser:
+  extensions:
+    - RESTfulAPI_TokenAuthExtension
+RESTfulAPI_TokenAuthenticator:
+  Member: 'ApiUser'
