@@ -7,7 +7,9 @@ class Member_Extension extends DataExtension{
                               'Suffix'=>'Varchar(10)',
                               'Titles'=>	'Varchar(25)',
                               'Gender'=>	'Varchar(15)',
+                              'Partnership'=>	'Varchar(50)',
                               'Deleted'=>	'Int',
+                              'User_Level'=>'Int',
                               'Phone'=>'Varchar(25)',
                               'Fax'	=>'Varchar(10)',
                               'Area_Of_Practice'=>'Varchar(200)',	
@@ -37,7 +39,7 @@ class Member_Extension extends DataExtension{
     );
   //private $id;
 
-  private static $has_many = array('Engagements'=>'Engagement','Speakings'=>'Speaking','PracticeArea'=>'PracticeArea');
+
   private static $has_one = array('Company'=>'Company','Avatar'=>'File','Address'=>'Address');
   
   
@@ -45,7 +47,12 @@ class Member_Extension extends DataExtension{
     
     return new Message();
   }
-  
+  public function Speakings(){
+    return Speaking::get()->filter(array('Related_ID'=>$this->owner->ID,'Type'=>'user'));
+  } 
+public function Engagements(){
+    return Engagement::get()->filter(array('Related_ID'=>$this->owner->ID,'Type'=>'user'));
+  } 
 public function practice_areas(){
     Return PracticeArea::get()->filter(array('Related_ID'=>$this->owner->ID  ,'Type'=>'user'));
     

@@ -5,9 +5,10 @@ class Speaking extends DataObject{
                              'Location'=>'Varchar(100)',
                              'Date'=>'Date',
                              'Year'=>'Int',
+                             'Related_ID'=>'Int',
                              'Month'=>'Varchar(50)',
                              );
-  static private $has_one = array('Member'=>'Member');
+  
   
   
 }

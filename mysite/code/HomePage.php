@@ -40,6 +40,8 @@ class HomePage_Controller extends ContentController {
     $results = array('Title'=>'DASHBOARD');
     $results['Engagements']= $member->Engagements()->Count();
     $results['Speakings'] =   $member->Speakings()->Count();
+    echo $results['Speakings'];
+    
     
     return $this->Customise($results)->renderWith(array("Dashboard","Page"));
     

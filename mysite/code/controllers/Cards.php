@@ -2,11 +2,25 @@
 
 class Cards extends Page_Controller{
   public function index(){
-    $ads   = BarState::get();
+    $ads   = Rfp::get();
     foreach($ads as $ad){
-    echo $ad->ID.'<br />';
-     $ad->StateID = State::get()->filter('Initial',$ad->State)->first()->ID; 
-     $ad->write();
+      //echo $ad->ID;
+      $states = explode(',',$ad->Practice_Areas) ;
+     
+      //print_r($states);
+      foreach($states as $key=>$value){
+        echo $value;
+        
+        $st = PracticeArea_List::get()->byID($value);
+        $bs = new PracticeArea();
+        $bs->Type ='Rfp';
+        $bs->Related_ID =$ad->ID;
+        $bs->PracticeArea_ListID = $st->ID;
+        
+        $bs->write();
+        
+      }
+  
       
     }
     //$cards = Message::newEmails()->toNestedArray();

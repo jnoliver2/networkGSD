@@ -12,6 +12,7 @@
 										<div class="form-group">
 										<label for="form-field-select-3">Practice Areas</label>
 										<select id="form-field-select-3" name="PracticeArea" class="filter form-control filter search-select">
+										 
 											<option value="">&nbsp;</option>
 											<% loop PracticeArea_List %>
 											  <option value="$ID">$Name</option>
@@ -61,7 +62,7 @@
 															
 														<option value="white">White</option>
 														<option value="African-American">African-American</option>
-														<option value="American-Indian ">American Indian </option>
+														<option value="American-Indian">American Indian </option>
 														<option value="Hispanic-Latino">Hispanic/Latino </option>
 														<option value ="Asian">Asian / Chinese / Japanese </option>
 														<option value ="other">Other</option>
@@ -93,9 +94,9 @@
 														</label>
 												<select id="form-field-select-3" name="Gender" class="form-control search-select">
 														<option value="">&nbsp;</option>
-														<option value="">Male</option>
-														<option value="">Female </option>
-														<option value="">Transgender </option>
+														<option value="Male">Male</option>
+														<option value="Female">Female </option>
+														<option value="Transgender">Transgender </option>
 												</select>
 														
 													</div>

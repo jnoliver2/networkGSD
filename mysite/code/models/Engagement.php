@@ -6,10 +6,12 @@ class Engagement extends DataObject{
                              'Company_Attorney'=>'Varchar(100)' ,
                              'Year'=>'Int',
                              'Month'=>'Varchar(50)',
-                            
+                             'Related_ID'=>'Int',
                              'To_user_id'=>'Int',
                              'Approved'=>'Int');
 
-  static private $has_one = array('Member'=>'Member');
-  
+
+  public function from(){
+    return Member::get()->byID($this->Related_ID);
+  }
 }

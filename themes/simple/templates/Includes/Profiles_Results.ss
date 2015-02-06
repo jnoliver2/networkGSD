@@ -19,7 +19,11 @@
 								</div>
 								
 								<div class="search-post-content col-xs-8 col-sm-8 col-md-9">
-									<i class="fa fa-archive filter-icon filter-green"></i><h3><a href="/network/?page=profile-company&company_id=<?=$row['ID']?>">$Name</a></h3>
+								  <div class="col-md-12">
+    									<i class="fa fa-archive filter-icon filter-green"></i>
+    									<h3><a href="/network/?page=profile-company&company_id=<?=$row['ID']?>">$Name</a></h3>
+									</div>
+									<div class="col-md-12">
 											<div class="search-post-info">
                                                 <div class="">
                                                     <i class="fa fa-suitcase"></i> $company_address.State.Full
@@ -38,7 +42,7 @@
                                                    
                                                   </div>
                                             </div>
-
+                  </div>
 									<p>
 										$company_overview_preview
 									</p>
@@ -94,29 +98,35 @@
 									<a href="/network/?page=profile-company&company_id=<?=$row['ID']?>"><img src="{$BaseHref}assets/Uploads/user.png" alt="" border=0></a>
 								</div>
 								
+								
 								<div class="search-post-content col-xs-8 col-sm-8 col-md-9">
-									<i class="fa fa-user filter-icon filter-green"></i><h3><a href="/network/?page=profile&profile_id=<?=$row['ID']?>">$FirstName $Surname</a></h3>
-																				<div class="search-post-info">
-                                                <div class="">
-                                                    <i class="fa fa-briefcase"></i>$Titles &bull; $Company.Name
-                                                </div>
-                                                <br/>
-                                                <div class="">
-                                                    <i class="fa fa-globe"></i>    
-                                                    <% loop bar_states %>
-                                                        &bullet;
-                                                        $State.Full
-                                                    <% end_loop %>
-                                                </div>
-                                              <div class="">
-                                                    <i class="fa fa-legal"></i>
-                                                      <% loop practice_areas %>
-                                                          &bull;
-                                                          $PracticeArea_List.Name
-                                                      <% end_loop %>
-                                                        
-                                               </div>
-                                            </div>
+								  <div class="col-md-12">
+									<i class="fa fa-user filter-icon filter-green"></i><h3>
+									  <a href="/network/?page=profile&profile_id=<?=$row['ID']?>">$FirstName $Surname</a></h3>
+									</div>
+									<div class="col-md-12">
+										<div class="search-post-info">
+                            <div class="">
+                                <i class="fa fa-briefcase"></i>$Titles &bull; $Company.Name
+                            </div>
+                            <br/>
+                            <div class="">
+                                <i class="fa fa-globe"></i>    
+                                <% loop bar_states %>
+                                    &bullet;
+                                    $State.Full
+                                <% end_loop %>
+                            </div>
+                          <div class="">
+                                <i class="fa fa-legal"></i>
+                                  <% loop practice_areas %>
+                                      &bull;
+                                      $PracticeArea_List.Name
+                                  <% end_loop %>
+                                    
+                           </div>
+                        </div>
+                        </div>
 
 									<p>
 										$bio_preview

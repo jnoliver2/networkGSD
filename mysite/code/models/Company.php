@@ -19,6 +19,8 @@ class Company extends DataObject{
                               'Package_Type'=>'Varchar(150)',
 
                              );
+  static private $has_many = array('Members'=>'Member'); 
+  static private $has_one = array('Image'=>'File');
   public function company_address(){
     return Address::get()->filter(array('Related_ID'=>$this->ID,'Type'=>'company'))->first();
   }
@@ -28,13 +30,48 @@ class Company extends DataObject{
     
     return substr($this->Overview,0,200);
   }
-  
+   
+  public function engagements (){
+    return Engagement::get()->filter(array('Related_ID'=>$this->ID,'Type'=>'company'));
+  }
+  public function Association(){
+    return Association::get()->filter(array('Related_ID'=>$this->ID,'Type'=>'company'));
+  }
+   public function clients_govt (){
+    return Client::get()->filter(array('Related_ID'=>$this->ID,'Type'=>'company','Sector'=>'goverment'));
+  }
+  public function clients_private(){
+    return Client::get()->filter(array('Related_ID'=>$this->ID,'Type'=>'company','Sector'=>'private'));
+  }
   public function bar_states(){
     return BarState::get()->filter(array('Related_ID'=>$this->ID,'Type'=>'company'));
+  }
+   public function board_certs(){
+    return Cert::get()->filter(array('Related_ID'=>$this->ID,'Type'=>'company'));
+  }
+  
+   public function Award(){
+    return Award::get()->filter(array('Related_ID'=>$this->ID,'Type'=>'company'));
   }
   
   public function practice_areas(){
     Return PracticeArea::get()->filter(array('Related_ID'=>$this->ID  ,'Type'=>'company'));
+    
+  }
+  public function diversity(){
+    Return Diversity::get()->filter(array('Related_ID'=>$this->ID  ,'Type'=>'company'));
+    
+  }
+  public function press(){
+    Return Press::get()->filter(array('Related_ID'=>$this->ID  ,'Type'=>'company'));
+    
+  }
+    public function speaking(){
+    Return Speaking::get()->filter(array('Related_ID'=>$this->ID  ,'Type'=>'company'));
+    
+  }
+      public function languages(){
+    Return Language::get()->filter(array('Related_ID'=>$this->ID  ,'Type'=>'company'));
     
   }
   

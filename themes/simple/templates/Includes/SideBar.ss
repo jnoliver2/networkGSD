@@ -21,7 +21,7 @@
 						<li <% if $Title=="COMPANY PROFILE" %>
                        class="active open"
                     <% end_if %>  >
-							<a href="pages/company"><i class="clip-earth-2"></i>
+							<a href="pages/company_main_profile"><i class="clip-earth-2"></i>
 						        <span class="title">Company Profile</span>
 								<span class="selected"></span>
 							</a>

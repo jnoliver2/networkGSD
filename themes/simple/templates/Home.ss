@@ -59,13 +59,13 @@
 		
 			<!-- start: MAIN CONTAINER -->
 		<div class="main-container">
-			  <% include SideBar %>
+			 
 			<!-- start: PAGE -->
-			<div class="main-content">
-			  	<% include PanelConfigForm %>
+			<div class="main-content" style="margin:0 0 0 0  !important;">
+			  
 			  		
 			  		<div class="container">
-			  		  <% include BreadCrumbSearch %>
+			  		  
 			  		  
 			  		  	<div class="col-sm-12 col-md-12">
 						  

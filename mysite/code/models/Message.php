@@ -18,6 +18,12 @@ class Message extends DataObject{
     
   }
   
+  public function body_text(){
+     $cc =new HTMLText(); 
+     $cc->setValue($this->Body);
+    return $cc;
+  }
+  
   public function trashMessages(){
     return Message::get()->filter('Deleted',1);
     
