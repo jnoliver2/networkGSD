@@ -1,53 +1,4 @@
 <div id="panel_connection" class="tab-pane"> 
-  <script>
-									
-										function approveConnection(profileID) {
-										
-												var xmlhttp;
-												if (window.XMLHttpRequest)
-												  {// code for IE7+, Firefox, Chrome, Opera, Safari
-												  xmlhttp=new XMLHttpRequest();
-												  }
-												else
-												  {// code for IE6, IE5
-												  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-												  }
-												xmlhttp.onreadystatechange=function()
-												  {
-												  if (xmlhttp.readyState==4 && xmlhttp.status==200)
-												    {
-												    alert('Connection approved');
-												    }
-												  }
-												xmlhttp.open("GET","/network/functions/ajax-connection.php?action=approve&to_id=<?=$_SESSION['userid']?>&from_id="+profileID,true);
-										//		alert("/network/functions/ajax-connection.php?action=approve&from_id=<?=$_SESSION['userid']?>&to_id="+profileID);
-												xmlhttp.send();
-											
-											
-										}
-										
-										function denyConnection(profileID) {
-												var xmlhttp;
-												if (window.XMLHttpRequest)
-												  {// code for IE7+, Firefox, Chrome, Opera, Safari
-												  xmlhttp=new XMLHttpRequest();
-												  }
-												else
-												  {// code for IE6, IE5
-												  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-												  }
-												xmlhttp.onreadystatechange=function()
-												  {
-												  if (xmlhttp.readyState==4 && xmlhttp.status==200)
-												    {
-												    alert('Connection denied');
-												    }
-												  }
-												xmlhttp.open("GET","/network/functions/ajax-connection.php?action=deny&to_id=<?=$_SESSION['userid']?>&from_id="+profileID,true);
-												xmlhttp.send();
-										}
-								
-										</script>
   <div class="row">
     <div class="col-sm-12 col-md-12">
       <div class="search-classic col-md-12">
@@ -56,12 +7,14 @@
 			<div class="search-result col-md-12" style="padding-left:0px;">
 			  <div class="row">
 			    <div class="search-post-image col-xs-4 col-sm-4 col-md-3">
-			       <a href='/network/?page=profile&profile_id=$profile'>
-            									  <img class="messages-item-avatar" src="{$BaseHref}assets/Uploads/user.png" border=0>
-            									</a>
+      				<a href="{$BaseHref}pages/profile_page/{$connection_from.ID}/2" >
+								  <% with  $connection_from %>
+                        		<% include Avatar250 %>
+                        	<% end_with %>
+      					</a> 
 			    </div>
 			    <div class="search-post-content col-xs-8 col-sm-8 col-md-9"> <i class="fa fa-archive filter-icon filter-green"></i>
-			      <h3><a href="/network/?page=profile&profile_id=<?=$row['ID']?>">
+			      <h3><a href="{$BaseHref}pages/profile_page/{$connection_from.ID}/2">
 			        $connection_from.FirstName
 			        $connection_from.Surname
 			        </a></h3>

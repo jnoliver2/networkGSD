@@ -26,6 +26,7 @@
 					
 					<input type=hidden id="message_id" name="message_id">
 					<input type=hidden id="company_id" name="company_id">
+					<input type=hidden id="member_id" name="member_id">
 					<input type=hidden id="rfpid" name="rfpid">
 					
 					

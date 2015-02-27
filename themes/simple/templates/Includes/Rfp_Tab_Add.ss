@@ -86,10 +86,24 @@
 										<% end_loop %>
 
 										</div>
-                                    </div>
+                    </div>
+                    
+                    <div class="col-md-12">
+										  
+                    <div class="form-group">
+										<label class="control-label">Associations*</label>
+										<select multiple="multiple" id="form-field-select-1" name="Association[]" class="form-control search-select">
+										  <% loop AS_List %>
+										   
+										    <option value="{$ID}">$Name</option>
+										  <% end_loop %>
+
+										  </select>
+										</div>                                        
+                   </div>
 										<div class="col-md-12">
 										  
-                                    <div class="form-group">
+                    <div class="form-group">
 										<label class="control-label">Practice Areas*</label>
 										<select multiple="multiple" id="form-field-select-1" name="PracticeArea[]" class="form-control search-select">
 										  <% loop PA_List %>
@@ -99,7 +113,7 @@
 
 										  </select>
 										</div>                                        
-                                    </div>
+                   </div>
 												<div class="col-md-12">
 												<div class="form-group">
 												<label for="form-field-select-4">
@@ -243,7 +257,7 @@
 											<div class="row">
 												<div class="col-md-8">
 													<p>
-														By clicking SUBMIT RFP, you are agreeing to the Private Policy and Terms &amp; Conditions.
+														By clicking SUBMIT, you are agreeing to the <a href="{$BaseHref}terms">Private Policy and Terms &amp; Conditions.</a>
 													</p>
 												</div>
 												<div class="col-md-4">

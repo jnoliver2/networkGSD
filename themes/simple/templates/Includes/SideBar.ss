@@ -90,7 +90,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="http://connectexpandgrow.com/terms-of-use/" target="_blank"><i class="clip-file-3"></i>
+							<a href="{$BaseHref}terms"><i class="clip-file-3"></i>
 						        <span class="title">Terms & Conditions</span>
 								<span class="selected"></span>
 							</a>

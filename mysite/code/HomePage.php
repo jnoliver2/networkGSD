@@ -31,6 +31,7 @@ class HomePage_Controller extends ContentController {
 	public function init() {
 	  
 		parent::init();
+
 		
 		// You can include any CSS or JS required by your project here.
 		// See: http://doc.silverstripe.org/framework/en/reference/requirements
@@ -47,4 +48,12 @@ class HomePage_Controller extends ContentController {
     
     
   }
+   public function Notifications(){
+   $pages = New Pages();
+   return $pages->Notifications();
+ }
+ 
+ public function Notifications_RFP(){
+   return Member::CurrentUser()->Notifications()->filter(array('Type'=>'Rfp_Application'));
+ }
 }

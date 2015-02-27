@@ -8,12 +8,12 @@
 								<ul class="nav nav-tabs tab-padding tab-space-3 tab-blue" id="myTab4">
 									<li >
 										<a data-toggle="tab"  href="#panel_messages" id="apanel_messages">
-											Messages <span class="badge badge-info"> $CurrentUser.allMessages.newEmails.Count </span>
+											Messages <span class="badge badge-info"> $Messages.Count </span>
 										</a>
 									</li>
 									<li>
 										<a data-toggle="tab" href="#panel_rfp" id="apanel_rfp">
-											RFP <span class="badge badge-info"> $CurrentUser.allMessages.rfpApply.Count  </span>
+											RFP <span class="badge badge-info"> $Rfps.Count  </span>
 										</a>
 									</li>
 									<li>
@@ -28,12 +28,12 @@
 									</li>
 									<li >
 										<a data-toggle="tab" href="#panel_sent" id="apanel_sent">
-											Sent
+											Sent <span class="badge badge-info"> $Sent.Count  </span>
 										</a>
 									</li>
 									<li>
 										<a data-toggle="tab" href="#panel_trash" id="apanel_trash">
-											Trash
+											Trash <span class="badge badge-info"> $Trash.Count  </span>
 										</a>
 									</li>
 								</ul>
@@ -44,6 +44,7 @@
 								  <% include Tab_Inbox %>
 								    
 										<% include Modal_Compose %>
+										<% include Modal_Award_Rfp %>	
 										
 										<% include Tab_Rfp %>
 										

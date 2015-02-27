@@ -1,9 +1,9 @@
-<!-- start: SEARCH RESULT -->
-            <form method="post"> 
+
 							
 							<div class="col-md-12 input-group well well-lg filter"> 
 							
-							
+							<!-- start: SEARCH RESULT -->
+            <form method="post"> 
 							<div class="col-md-12">
 							<input type="text" class="filter form-control" name="searchname" value="$Post_Vars.searchname" placeholder="Search Name or Business Name">
 							</div>
@@ -277,6 +277,8 @@
 											<button type=submit class="btn btn-blue"><i class="fa fa-search"></i> SEARCH</button> 
 											<button class="btn btn-green" type="button" id="advanced-btn"><i class="fa fa-search-plus" ></i> ADVANCED SEARCH</button> 
 									</div>
+										</form>
 							</div>
 							
-							</form>
+							
+						

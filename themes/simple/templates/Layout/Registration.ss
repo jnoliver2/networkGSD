@@ -3,7 +3,7 @@
   <p>Become a part of a groundbreaking network that values the power of diversity. <strong>Connect. Expand. Grow. </strong></p>
 </div>
 <div class="well main-reg-content">
-<form method="post" action="{$BaseHref}pages/register">
+<form method="post" action="{$BaseHref}registration/register">
 <div class="row">
   <div class="col-md-6">
       <div class="form-group">
@@ -72,13 +72,13 @@
 	</div>
 	<div class="col-md-3">
       <div class="form-group">
-				<label class="control-label">SURNAME*</label>
+				<label class="control-label">LAST NAME*</label>
 				<input type="text"  placeholder="" class="form-control" name="User[Surname]" > 
 		  </div>
 	</div>
     <div class="col-md-1">
       <div class="form-group">
-				<label class="control-label">SUFFIX*</label>
+				<label class="control-label">SUFFIX</label>
 				<select name="User[Suffix]" class="form-control">
 				    <option></option>
   			    <option value="Jr.">Jr.</option>
@@ -123,7 +123,7 @@
 	<div class="col-md-4">
       <div class="form-group">
 				<label class="control-label">PARTNERSHIP INFORMATION/TITLE*</label>
-				<select name="User[Partnership]" class="form-control">
+				<select name="User[Titles]" class="form-control">
 
 					<option value=""></option>
 					<option value="Associate">Associate</option>

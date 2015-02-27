@@ -36,9 +36,11 @@
         									<li class="messages-item" onClick="showMailMessage($ID)">
         								
         										<span title="Mark as starred" class="messages-item-star"><i class="fa fa-star"></i></span>
-            									<a href='/network/?page=profile&profile_id=$profile'>
-            									  <img class="messages-item-avatar" src="{$BaseHref}assets/Uploads/user.png" border=0>
-            									</a>
+                  								<a href="{$BaseHref}pages/profile_page/{$sender.ID}/2" >
+      											  <% with sender %>
+                                    		<% include Avatar50 %>
+                                    	<% end_with %>
+      											  </a> 
         											<span class="messages-item-from">$sender.FirstName $sender.Surname</span>
         										<div class="messages-item-time">
         											<span class="text">$Date_Sent.Date</span>

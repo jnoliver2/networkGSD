@@ -1,0 +1,61 @@
+
+<div class="table-responsive">
+  
+										<table class="table table-bordered table-hover" id="sample-table-1">
+											<thead>
+												<tr>
+													
+												<th class="center hidden-sm hidden-xs">#</th>
+												<th>Address</th>
+												<th class="hidden-sm hidden-xs">City</th>
+												<th class="hidden-sm hidden-xs">State</th>
+												<th class="hidden-sm hidden-xs">Zip</th>
+												<th class="hidden-sm hidden-xs">Phone</th>
+												<th class="hidden-sm hidden-xs">Fax</th>
+												<th></th>
+												</tr>
+											</thead>
+											<tbody>
+											
+											<% loop $Selected.company_addresses %> 
+											
+												<tr>
+												<td class="center hidden-sm hidden-xs">$Pos</td>
+												<td>$Address1 $Address2</td>
+												<td class="hidden-sm hidden-xs">$City</td>
+												<td class="hidden-sm hidden-xs">$State.Initial</td>
+												<td class="hidden-sm hidden-xs">$Zip</td>
+												
+												<td class="hidden-sm hidden-xs">$Phone</td>
+												<td class="hidden-sm hidden-xs">$Fax</td>
+												<td class="center">
+												<div class="">
+													<!--<a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Edit"><i class="fa fa-edit"></i></a>-->
+													<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Remove"><i class="fa fa-times fa fa-white"></i></a>
+												</div>
+												<div class="hidden-xs hidden-sm hidden-md hidden-lg">
+													<div class="btn-group">
+														<a class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown" href="#">
+															<i class="fa fa-cog"></i> <span class="caret"></span>
+														</a>
+														<ul role="menu" class="dropdown-menu pull-right">
+														<!--	<li role="presentation">
+																<a role="menuitem" tabindex="-1" href="#">
+																	<i class="fa fa-edit"></i> Edit
+																</a>
+															</li> -->
+															<li role="presentation">
+																<a role="menuitem" tabindex="-1" href="#">
+																	<i class="fa fa-times"></i> Remove
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div></td>
+											</tr>
+											
+										<% end_loop %>
+										
+											</tbody>
+										</table>
+									</div>

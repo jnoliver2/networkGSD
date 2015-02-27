@@ -6,12 +6,14 @@
         <div class="search-result col-md-12" style="padding-left:0px;">
           <div class="row">
             <div class="search-post-image col-xs-4 col-sm-4 col-md-3">
-              <a href='/network/?page=profile&profile_id=$profile'>
-											  <img class="messages-item-avatar" src="{$BaseHref}assets/Uploads/user.png" border=0>
+              <a href="{$BaseHref}pages/profile_page/{$from.ID}/2" >
+											  <% with from %>
+                              		<% include Avatar250 %>
+                              	<% end_with %>
 											  </a>
             </div>
             <div class="search-post-content col-xs-8 col-sm-8 col-md-9"> <i class="fa fa-archive filter-icon filter-green"></i>
-              <h3><a href="/network/?page=profile&profile_id=<?=$row['related_id']?>">
+              <h3><a href= "{$BaseHref}pages/profile_page/{$from.ID}/2">
                 $from.FirstName
                 $from.Surname
                 </a></h3>

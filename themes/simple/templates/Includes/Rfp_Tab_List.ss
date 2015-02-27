@@ -31,7 +31,7 @@
 												  <% end_loop %>
 												 
 												</td>
-												<td class="hidden-xs">$applications.Count</td>
+												<td class="hidden-xs"><a href="{$BaseHref}pages/rfp_applicants?id={$ID}">$applications.Count</a></td>
 												<th class="hidden-xs">$Submission_Deadline.format(M d Y)</th>
 												<td class="center">
 												<div class="visible-md visible-lg hidden-sm hidden-xs">
